@@ -1,0 +1,15 @@
+-- Удаление всех записей в таблице
+TRUNCATE TABLE passports CASCADE;
+TRUNCATE TABLE users CASCADE;
+TRUNCATE TABLE categories CASCADE;
+TRUNCATE TABLE preferences CASCADE;
+TRUNCATE TABLE items CASCADE;
+TRUNCATE TABLE item_categories CASCADE;
+TRUNCATE TABLE wishlists CASCADE;
+TRUNCATE TABLE wishlist_categories CASCADE;
+TRUNCATE TABLE users_wishlists CASCADE;
+TRUNCATE TABLE bookings CASCADE;
+TRUNCATE TABLE feedbacks CASCADE;
+TRUNCATE TABLE booking_feedbacks CASCADE;
+TRUNCATE TABLE booked_items CASCADE;
+TRUNCATE TABLE passwords CASCADE;
